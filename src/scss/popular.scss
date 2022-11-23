@@ -1,0 +1,88 @@
+.popular{
+    padding: 125px 0px;
+    &__title{
+        text-align: center;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+    &__scroll{
+        text-align: center;
+        column-gap: 45px;
+        transform: translateY(71px);
+        &__products{
+            // column-gap: 50px;
+            &-title{
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #0F303F;
+            }
+        &-name{
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #0F303F;
+        }
+        &-price{
+            text-decoration: line-through;
+            font-family:'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.045em;
+            text-transform: uppercase;
+            color: #CECECE;
+        }
+        &-uaprice{
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.045em;
+            text-transform: uppercase;
+            color: #FD5454;
+        }
+        }
+    }
+    &__allegory {
+    position: relative;
+    transform: translateY(100px);
+    margin-bottom: 150px;
+    &-lines {
+        position: absolute;
+        top: 80px;
+        height: 2px;
+        width: 100%;
+        background-color: #EAE9E8;
+        z-index: 1;
+    }
+    &-svg {
+        text-align: center;
+        position: absolute;
+        left: 44%;
+        top: 71px;
+        height: 24px;
+        width: 161px;
+        z-index: 2;
+        background-color: #fff;
+    }
+    &-logo {
+        background: #fff;
+    }
+}
+}

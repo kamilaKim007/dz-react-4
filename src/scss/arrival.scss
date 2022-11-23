@@ -1,0 +1,66 @@
+.arrival{
+    margin-top: 150px;
+    font-family: 'Cormorant'serif;
+    background: #CEC6C4;
+    &__desk{
+        display: flex;
+    }
+    &__new{
+        background: url('../assets/arrival/arrival1.png'), no-repeat;
+        background-size: cover;
+        height: 700px;
+        width: 640px;
+        color: #FFFFFF;
+        &-text{
+            position: relative;
+            text-align: left;
+            width: 465px;
+            top: 140px;
+            padding-left: 60px;
+            &-title{
+                font-family: 'Cormorant Garamond';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 90px;
+                text-transform: uppercase;
+            }
+            &-subtitle{
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                margin: 20px 0;
+            }
+            &-a{
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 16px;
+                letter-spacing: 0.045em;
+                text-transform: uppercase;
+                color: #EAE9E8;
+                cursor: pointer;
+            }
+        }
+    }
+    &__right{
+        margin: 45px 100px;
+        padding: 100px;
+        background: rgb(56, 31, 31);
+        &-title{
+            position: relative;
+            background: url('../assets/arrival/arrival2.png'), no-repeat;
+            height: 380px;
+            width: 380px;
+            &-p{
+                position: relative;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #FFFFFF;
+                top: 330px;
+            }
+        }
+    }
+}

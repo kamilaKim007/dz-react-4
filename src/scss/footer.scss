@@ -1,0 +1,55 @@
+.footer{
+    padding: 65px 0;
+    &__h2{
+        text-align: center;
+        font-family: 'Cormorant Garamond';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 102.5%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+    &__search{
+        text-align: center;
+        padding: 16px;
+    }
+    &__inp{
+        font-family:  'Montserrat';
+        outline: none;
+        border: none;
+        font-weight: 400;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+    }
+    &__inf{
+        transform: translateY(15px);
+        display: flex;
+        justify-content: center;
+        column-gap: 18px;
+        color: #B7C1C5;
+    }
+    &__lines{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 0px;
+        background: #EAE9E8;
+    }
+    &__line{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 0px;
+        top: 60px;
+        background: #EAE9E8;
+    }
+
+    &__information{
+        display: flex;
+        column-gap: 698px;
+        transform: translateY(74px);
+        padding: 18px;
+    }
+    
+}

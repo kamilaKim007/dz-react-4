@@ -1,0 +1,37 @@
+.about{
+    
+    padding: 40px 0;
+    margin-bottom: 150px;
+    height: 500px;
+    &__desk{
+        display: flex;
+        background: #254A5A;
+    }
+    &__text{
+        padding: 132px 0px 132px 200px;
+        &-title{
+        font-family: 'Cormorant Garamond';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #EAE9E8;
+    }
+    &-p{
+        padding-top: 20px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        width: 490px;
+    }
+    }
+    &__img{
+        padding-left: 80px;
+        width: 474px;
+        height: 543px;
+        
+    }
+}
