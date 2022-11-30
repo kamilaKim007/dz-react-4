@@ -1,8 +1,8 @@
 import React from 'react'
-import Images1 from "../../assets/popular/img1.png"
-import Images2 from "../../assets/popular/img2.png"
-import Images3 from "../../assets/popular/img3.png"
-import Images4 from "../../assets/popular/img4.png"
+import Images1 from "../../../assets/popular/img1.png"
+import Images2 from "../../../assets/popular/img2.png"
+import Images3 from "../../../assets/popular/img3.png"
+import Images4 from "../../../assets/popular/img4.png"
 
 const Popular = () => {
   return (

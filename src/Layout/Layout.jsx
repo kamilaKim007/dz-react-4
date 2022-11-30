@@ -1,22 +1,16 @@
-// import { createContext } from "react";
-// export const CustomContext = createContext();
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Home from '../pages/Home/Home';
+import Footer from './Footer/Footer';
+import Header from "./Header/Header";
 
+const Layout = () => {
+    return (
+        <>
+            <Header/>
+           <Outlet/>  
+        </>
+    );
+};
 
-// const Context = (props) => {
-//     const [count1, setCount1] = useState(0)
-
-//     const plusCount = () => {
-//         setCount1(count1 + 1)
-//     }
-
-//     const value = {
-//         count1, 
-//         setCount1, plusCount
-//     }
-
-//     return <CustomContext.Provider value={value}>
-//         {props.children}
-//     </CustomContext.Provider>
-// }
-
-// export default CustomContext;
+export default Layout;

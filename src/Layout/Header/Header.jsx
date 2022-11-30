@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -6,6 +7,7 @@ const Header = () => {
         <div className='container'>
             <nav className='header__nav'>
                 <h1 className='header__title'>
+                    <Link href="/">
                 <svg width="129" height="16" viewBox="0 0 129 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.4191 15.7846L9.4082 13.0251H2.74338L1.65907 15.7846H0L6.23273 0L12.1027 15.7846H10.4191ZM6.15936 3.95834L3.19993 11.7287H8.92719L6.15936 3.95834Z" fill="#0F303F"/>
                     <path d="M20.6914 15.7846V0.552734H22.3016V14.4394H27.0424V15.7846H20.6914Z" fill="#0F303F"/>
@@ -15,19 +17,19 @@ const Header = () => {
                     <path d="M94.6937 12.1148L97.1232 15.7846H95.3418L93.3444 12.6919C92.6963 12.9561 91.7546 13.1715 90.7926 13.1715C90.3116 13.1715 89.7817 13.1227 89.3251 13.0292V15.7887H87.7354V0.552734H90.5725C95.5538 0.552734 97.5023 3.47882 97.5023 7.07547C97.5064 8.87582 96.8338 10.7697 94.6937 12.1148ZM90.8904 1.86947H89.3251V11.6556C89.8551 11.8222 90.2871 11.8954 90.866 11.8954C91.4693 11.8954 92.1908 11.7978 92.6229 11.5825L91.2532 9.54232L92.4802 8.77422L93.9232 10.9566C95.1258 10.2373 96.0144 8.91646 96.0144 7.26241C96.0144 3.38128 93.4667 1.86947 90.8904 1.86947Z" fill="#0F303F"/>
                     <path d="M106.89 15.7846V0.552734H108.479V15.7846H106.89V15.7846Z" fill="#0F303F"/>
                     <path d="M127.317 15.7846L126.306 13.0251H119.641L118.557 15.7846H116.897L123.13 0L129 15.7846H127.317ZM123.057 3.95834L120.097 11.7287H125.825L123.057 3.95834Z" fill="#0F303F"/>
-                </svg></h1>
+                </svg></Link></h1>
                 <div className='header__menu'>
-                    <a href = "" className='header__menu-link'>Женщины</a>
-                    <a href = "" className='header__menu-link'>Мужчины</a>
+                    <Link href = "/popular" className='header__menu-link'>Женщины</Link>
+                    <Link href = "/popular" className='header__menu-link'>Мужчины</Link>
+                    <Link href = "/about" className='header__menu-link'>О нас</Link>
                     <label htmlFor="" className='header__search'>
-                        <span className='header__search-text'>поиск</span>
+                        <span className='header__search-text'>Поиск</span>
                         <input className='header__search-field' type="text"/>
                     </label>
                 </div>
                 <div className='header__right'>
                     <div className='header__lang'>
                         <a href = "" className='header__lang-link'>RU</a>
-                        <a href = "" className='header__lang-link'>UA</a>
                         <a href = "" className='header__lang-link'>EN</a>
                     </div>
                 </div>
