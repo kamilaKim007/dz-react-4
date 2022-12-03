@@ -1,0 +1,18 @@
+.catalog{
+    padding: 8px 0px 50px;
+    &__ content{
+        display: flex;
+        column-gap: 25px;
+    }
+    &__right{
+        width: 75%;
+        height: 100vh;
+        } 
+    &-title{
+        font-weight: 500;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #0F303F;
+        margin-bottom: 50px;
+    }
+}

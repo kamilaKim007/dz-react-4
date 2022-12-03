@@ -1,0 +1,49 @@
+.catalog__row{
+    display: flex;
+    column-gap: 15px;
+    
+}
+.catalog__card{
+    text-align: center;
+    &-img{
+        width: 270px;
+        height: 325px;
+    }
+    &-title{
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+    &-category{
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #0F303F;
+    }
+    &-brand{
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #0F303F;
+    }
+    &-price{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+}

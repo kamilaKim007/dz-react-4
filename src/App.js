@@ -9,24 +9,25 @@ import NotFound from "./pages/NotFound/NotFound";
 import "./scss/style.scss";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
+import "./i18n";
+import { Suspense } from "react";
+import Catalog from "./pages/Catalog/Catalog";
 
 
 function App() {
   return (
-   <>
-   <Header/>
+   <Suspense fallback={"...loading"}>
     <Routes>
       <Route path="/" element={<Layout/>}>
       <Route path="" element={<Home/>}/> 
       <Route path="about" element={<About/>}/> 
       <Route path="arrival" element={<Arrival/>}/> 
-      <Route path="popular" element={<Popular/>}/>
+      <Route path="/catalog" element={<Catalog/>}/>
       <Route path="*" element={<NotFound/>}/>
       </Route>
       <Route path="custom" element={<Custom/>}/>
     </Routes>
-    <Footer/>
-   </>
+    </Suspense>
   );
 }
 

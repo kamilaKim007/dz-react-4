@@ -65,7 +65,19 @@ const Popular = () => {
                 </div>
         </div>
         </div>
+        {/* <section className='catalog'>
+        <div className='container'>
+            <BreadCrumbs/>
+            <div className='catalog__content'>
+                <SideBar/>
+                <div className='catalog__right'>
+                    <h2 className='catalog__content-title'></h2>
+                </div>
+            </div>
+        </div>
+    </section> */}
     </popular>
+    
   )
 }
 
