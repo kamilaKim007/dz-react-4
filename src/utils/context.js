@@ -18,17 +18,19 @@ const Context = (props) => {
     }
 
     const getProducts = () =>{
-        axios('http://localhost:4444/catalog')
+        axios(`http://localhost:4444/catalog/?gender=${gender}&category=${category}`)
         .then(({data}) => setProducts({...products, data: data}))
         .catch((error) => setProducts({...products, error: error}))
     }
 
     const value = {
+        products,
         gender,
         category,
         changeGender,
         changeCategory,
-        getProducts
+        getProducts,
+        setProducts
     }
 
     return <CustomContext.Provider value={value}>

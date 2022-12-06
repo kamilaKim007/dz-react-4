@@ -7,10 +7,10 @@ import SideBar from './SideBar/SideBar'
 
 const Catalog = () => {
 
-  const {category, getProducts} = useContext(CustomContext)
+  const {category, getProducts, gender} = useContext(CustomContext)
   useEffect(() => {
     getProducts()
-  }, [])
+  }, [gender, category])
 
   return (
     <section className='catalog'>
