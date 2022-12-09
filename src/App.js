@@ -12,7 +12,6 @@ import Layout from "./Layout/Layout";
 import "./i18n";
 import { Suspense } from "react";
 import Catalog from "./pages/Catalog/Catalog";
-import Question from "./pages/Question/Question";
 import PopularQuestion from "./pages/PopularQue/PopularQuestion";
 
 
@@ -23,8 +22,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout/>}>
       <Route path="" element={<Home/>}/> 
-      <Route path="about" element={<About/>}/> 
-      <Route path="arrival" element={<Arrival/>}/> 
+      <Route path="about" element={<About/>}/>  
       <Route path="catalog" element={<Catalog/>}/>
       <Route path="*" element={<NotFound/>}/>
       <Route path="question" element={<PopularQuestion/>}/>

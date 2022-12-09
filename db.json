@@ -2,55 +2,131 @@
     "catalog": [
         {
             "id": 1,
-            "title": "george gine lucy",
-            "price": 150,
+            "title": "george gina lucy",
+            "price": 10,
             "category": "shoes",
-            "img": "/src/assets/catalog/img-1.png",
+            "img": [],
             "sizes": [
-                {"id":1, "size": 35, "instock": 5},
-                {"id":2, "size": 36, "instock": 1},
-                {"id":3, "size": 37, "instock": 2},
-                {"id":4, "size": 38, "instock": 4},
-                {"id":5, "size": 39, "instock": 7}
+                {"id": 1, "size": 35, "inStock": 5, "color": "grey"},
+                {"id": 2, "size": 36, "inStock": 2, "color": "black"},
+                {"id": 3, "size": 37, "inStock": 3, "color": "blue"},
+                {"id": 4, "size": 38, "inStock": 1, "color": "white"},
+                {"id": 5, "size": 39, "inStock": 7, "color": "grey"}
             ],
             "review": [],
-            "brand": "nike",
-            "gender": "woman"
+            "brand": "Nike",
+            "gender": "men"
         },
         {
             "id": 2,
-            "title": "george gine lucy",
-            "price": 140,
+            "title": "Nike Jordan Air",
+            "price": 20,
             "category": "shoes",
-            "img": "/src/assets/catalog/img-2.png",
+
+            "img": [],
             "sizes": [
-                {"id":1, "size": 35, "instock": 5},
-                {"id":2, "size": 36, "instock": 1},
-                {"id":3, "size": 37, "instock": 2},
-                {"id":4, "size": 38, "instock": 4},
-                {"id":5, "size": 39, "instock": 7}
+              {
+                "id": 1,
+                "size": 38,
+                "inStock": 3,
+                "color": "grey"
+              },
+              {
+                "id": 2,
+                "size": 39,
+                "inStock": 0,
+                "color": "black"
+              },
+              {
+                "id": 3,
+                "size": 40,
+                "inStock": 3,
+                "color": "red"
+              },
+              {
+                "id": 4,
+                "size": 41,
+                "inStock": 2,
+                "color": "black"
+              },
+              {
+                "id": 5,
+                "size": 42,
+                "inStock": 5,
+                "color": "black"
+              }
             ],
             "review": [],
-            "brand": "adidas",
+            "brand": "Nike",
             "gender": "men"
-        },
-        {
+          },
+          {
             "id": 3,
-            "title": "george gine lucy",
-            "price": 180,
+            "title": "george gina lucy",
+            "price": 30,
             "category": "shoes",
-            "img": "/src/assets/catalog/img-3.png",
+            "img": [],
             "sizes": [
-                {"id":1, "size": 35, "instock": 5},
-                {"id":2, "size": 36, "instock": 1},
-                {"id":3, "size": 37, "instock": 2},
-                {"id":4, "size": 38, "instock": 4},
-                {"id":5, "size": 39, "instock": 7}
+                {"id": 1, "size": 99, "inStock": 1,"color": "black"},
+                {"id": 2, "size": 66, "inStock": 2,"color": "blue"},
+                {"id": 3, "size": 37, "inStock": 3,"color": "pink"},
+                {"id": 4, "size": 34, "inStock": 4,"color": "white"},
+                {"id": 5, "size": 45, "inStock": 5,"color": "red"}
             ],
             "review": [],
-            "brand": "lacost",
+            "brand": "Puma",
+            "gender": "woman"
+          },
+          {
+            "id": 4,
+            "title": "george gina lucy",
+            "price": 40,
+            "category": "shoes",
+            "img": [],
+            "sizes": [
+                {"id": 1, "size": 10, "inStock": 1, "color": "blue"},
+                {"id": 2, "size": 20, "inStock": 2,"color": "black"},
+                {"id": 3, "size": 30, "inStock": 3,"color": "white"},
+                {"id": 4, "size": 40, "inStock": 4,"color": "black"},
+                {"id": 5, "size": 50, "inStock": 5,"color": "grey"}
+            ],
+            "review": [],
+            "brand": "Puma",
             "gender": "men"
-        }
-        
+          },
+          {
+            "id": 5,
+            "title": "george gina lucy",
+            "price": 50,
+            "category": "shoes",
+            "img": [],
+            "sizes": [
+                {"id": 1, "size": 0, "inStock": 1, "color": "white"},
+                {"id": 2, "size": 8, "inStock": 2,"color": "black"},
+                {"id": 3, "size": 4, "inStock": 3,"color": "black"},
+                {"id": 4, "size": 9, "inStock": 4,"color": "blue"},
+                {"id": 5, "size": 34, "inStock": 5,"color": "red"}
+            ],
+            "review": [],
+            "brand": "Puma",
+            "gender": "men"
+          },
+          {
+            "id": 6,
+            "title": "george gina lucy",
+            "price": 60,
+            "category": "shoes",
+            "img": [],
+            "sizes": [
+                {"id": 1, "size": 1, "inStock": 1, "color": "black"},
+                {"id": 2, "size": 2, "inStock": 2,"color": "red"},
+                {"id": 3, "size": 7, "inStock": 3, "color": "white"},
+                {"id": 4, "size": 37, "inStock": 4, "color": "white"},
+                {"id": 5, "size": 89, "inStock": 5, "color": "blue"}
+            ],
+            "review": [],
+            "brand": "Puma",
+            "gender": "woman"
+          }
     ]
 }

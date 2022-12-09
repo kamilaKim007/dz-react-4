@@ -7,31 +7,35 @@ import Select from '@mui/material/Select';
 import { CustomContext } from '../../../utils/context';
 
 
-  function SelectPrice() {
-  const {price, setPrice} = useContext(CustomContext);
+  function SelectColor() {
+  const {color, setColor} = useContext(CustomContext);
 
   const handleChange = (event) => {
-    setPrice(event.target.value);
+    setColor(event.target.value);
   };
 
   return (
     <Box sx={{ minWidth: 120 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Price</InputLabel>
+        <InputLabel id="demo-simple-select-label">Color</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value={price}
-          label="Price"
+          value={color}
+          label="Color"
           onChange={handleChange}
         >
-          <MenuItem value="asc">По возрaстанию</MenuItem>
-          <MenuItem value="desc">По убыванию</MenuItem>
-          <MenuItem value="">Сбросить</MenuItem>
+          <MenuItem value='black'>Black</MenuItem>
+          <MenuItem value='white'>White</MenuItem>
+          <MenuItem value='red'>Red</MenuItem>
+          <MenuItem value='blue'>Blue</MenuItem>
+          <MenuItem value='pink'>Pink</MenuItem>
+          <MenuItem value='grey'>Grey</MenuItem>
+
         </Select>
       </FormControl>
     </Box>
   );
 }
 
-export default SelectPrice;
+export default SelectColor;

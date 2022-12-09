@@ -1,13 +1,15 @@
 .catalog{
-    padding: 8px 0px 50px;
-    &__ content{
+    height: 24cm;
+    padding: 8px 0 50px;
+    &__content{
         display: flex;
         column-gap: 25px;
     }
     &__right{
         width: 75%;
         height: 100vh;
-        } 
+        // background: black;
+    }
     &-title{
         font-weight: 500;
         font-size: 25px;
